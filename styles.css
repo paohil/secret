@@ -123,3 +123,44 @@ body {
     width: fit-content; /* Makes the banner width adjust to the text size */
     margin: 20px auto; /* Centers the banner */
   }
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  #journey {
+    padding: 20px;
+  }
+
+  #journey-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  #journey-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  #prev-month, #next-month {
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin: 10px 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  #journey-content h2 {
+    font-size: 1.2rem;
+  }
+
+  #prev-month, #next-month {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 0.9rem;
+  }
+
+  #journey-content img {
+    border-radius: 5px;
+  }
+}
+
